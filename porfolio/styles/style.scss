@@ -1,0 +1,19 @@
+$header4:2rem;
+$header3:3.1rem;
+$header2:4.2rem;
+$header1:4.6rem;
+
+$text:2.5rem;
+
+@mixin flex($direction){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: $direction;
+}
+
+
+@import "global";
+@import "intro";
+@import "projects";
+@import "contact";

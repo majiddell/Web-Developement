@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: ruhl;
+    src: url(./fonts/FrankRuhlLibre-Regular.ttf);
+}
+@font-face {
+    font-family: ruhl-medim;
+    src: url(./fonts/FrankRuhlLibre-Medium.ttf);
+}
+@font-face {
+    font-family: vibe;
+    src: url(./fonts/GreatVibes-Regular.ttf);
+}
+
+html{
+    font-size: 62.5%;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p, a, li{
+    font-size: $text;
+}
+h1{
+    font-size: $header1;
+}
+h2{
+    font-size: $header2;
+}
+h3{
+    font-size: $header3;
+}
+h4, h5{
+    font-size: $header4;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+ul{
+    list-style: none;
+}
+
+body{
+    font-family: "rahul", sans-serif;
+    animation : opening 0.6s ease-out;
+}
+h1{
+    font-family: "vibe", sans-serif;
+}
+@keyframes opening {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 100%;
+    }
+    
+}

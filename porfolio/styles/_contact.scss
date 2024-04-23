@@ -1,0 +1,37 @@
+.contact-me{
+    @include flex(row);
+    background-color: rgb(255, 255, 255);
+    width: 90%;
+    margin: auto;
+    padding: 6rem 3rem;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    .contact-image{
+        flex: 1 1 40rem;
+        @include flex(row);
+        img{
+            width: 80%;
+            height: 80%;
+            object-fit: cover;
+            
+        }
+    }
+    .contact-text{
+        @include flex(column);
+        justify-content: flex-start;
+        align-items: flex-start;
+        
+        flex: 1 1 20rem;
+        padding: 2rem;
+        h2{
+            
+            font-size: 3rem;
+            padding: 1rem;
+        }
+        p{
+            padding: 0 0 2rem 0;
+        }
+    }
+}
